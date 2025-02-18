@@ -1,4 +1,5 @@
 fun main() {
     var city: String? = "Kuwait City"
-    println(city?.length)
+    city = null
+    println(city?.length ?: 55)
 }
